@@ -3,8 +3,11 @@
 int main()
 {
     float a;
-    printf("");
+
+    printf(" ");
     scanf("%f",&a);
-    printf("You enterd: %.2",a);
+
+    printf("You enterd: %.2f/n",a);
+
     return 0;
 }
