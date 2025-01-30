@@ -5,35 +5,12 @@ int main()
     scanf("%d",&a);
     if ( a != 0)
     {
-        printf("True\n",a);
+        printf("False\n",a);
     }
     else
     {
-        printf("False\n",a);
+        printf("True\n",a);
     }
     return 0;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
