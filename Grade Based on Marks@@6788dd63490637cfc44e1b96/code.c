@@ -20,7 +20,7 @@ int main()
     else if (70 <a>= 60){
         printf("D\n");
     }
-    else{
+    else (a<60) {
         printf("F\n");
     }
     return 0;
