@@ -11,8 +11,8 @@ int main()
         printf("%d\n",b);
     }
     else{
-        printf("%d",c)
+        printf("%d",c);
     }
-    
+
     return 0;
 }
