@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 int main() 
 {
     int cp,sp;
@@ -8,7 +7,7 @@ int main()
         printf("%Profit\n");
     }
     else if (sp=cp){
-        printf("%No Profit No Loss\n");
+        printf("No Profit No Loss\n");
     }
     else {
         printf("Loss\n");
