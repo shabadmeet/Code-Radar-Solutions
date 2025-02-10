@@ -4,7 +4,7 @@ int main()
 {
     int num;
 
-    if (num>0){
+    if (num%2==0){
         printf("Even");
     }
 
@@ -12,6 +12,6 @@ int main()
 
         printf("Odd");
     }
-    
+
     return 0;
 }
