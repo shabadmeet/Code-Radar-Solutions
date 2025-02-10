@@ -2,7 +2,7 @@
 
 int main() 
 {
-    int num;
+    float num;
 
     if (num%2==0){
         printf("Even");
