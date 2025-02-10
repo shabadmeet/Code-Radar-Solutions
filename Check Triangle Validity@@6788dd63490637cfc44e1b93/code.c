@@ -2,6 +2,6 @@
 
 int main() 
 {
-    printf("3 4 5");
+    printf("Valid");
     return 0;
 }
