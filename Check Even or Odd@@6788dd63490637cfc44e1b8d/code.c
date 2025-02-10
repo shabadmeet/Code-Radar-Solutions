@@ -4,12 +4,13 @@ int main()
 {
     int num;
 
-    if (num%2==0){
+    if (num % 2 == 0)
+    {
         printf("Even");
     }
 
-    else{
-
+    else
+    {
         printf("Odd");
     }
 
