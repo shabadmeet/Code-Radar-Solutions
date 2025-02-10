@@ -7,9 +7,11 @@ int main()
     if (sp>cp){
         printf("%Profit\n");
     }
-    else{
-        printf("%Loss\n");
+    else if (sp=cp){
+        printf("%No Profit No Loss\n");
     }
-    
+    else {
+        printf("Loss\n")
+    }
     return 0;
 }
