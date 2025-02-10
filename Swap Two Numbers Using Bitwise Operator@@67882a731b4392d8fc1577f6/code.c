@@ -9,5 +9,6 @@ int main()
     b = a ^ b;
     a = a ^ b;
     
+    printf(a,b)
     return 0;
 }
