@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 int main() {
-    int day;
-    scanf("%d", &day);
+    char grade;
+    scanf("%c", &grade);
     
-    switch(day) {
+    switch(grade) {
         case 'A': printf("Excellent\n"); break;
         case 'B': printf("Good\n"); break;
         case 'C': printf("Average\n"); break;
