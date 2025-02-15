@@ -1,19 +1,24 @@
 #include <stdio.h>
 
-void printBinary(int num) {
-    int flag = 0; 
-    for (int i = 31; i >= 0; i--) 
-    {
-        int bit = (num >> i) & 1; 
-        if (bit) flag = 1; 
-        if (flag) printf("%d", bit);
-    }
-    if (!flag) printf("0");
-    printf("\n");
-}
 int main() {
-    int num;
+    int num, binary[32], i = 0;
+
     scanf("%d", &num);
-    printBinary(num);
+
+    if (num == 0) {
+        printf("0");
+        return 0;
+    }
+
+    while (num > 0) {
+        binary[i++] = num & 1; // Store remainder (0 or 1)
+        num >>= 1; // Right shift the number
+    }
+
+    // Print the binary representation in reverse order
+    for (int j = i - 1; j >= 0; j--) {
+        printf("%d", binary[j]);
+    }
+
     return 0;
 }
