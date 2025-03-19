@@ -1,18 +1,15 @@
-// Your code here...
-#include<stdio.h>
+#include <stdio.h>
 
-int main()
-{
-	int i,j;
-	for (i=1;i<=5;i++)
-	{
-		char ch = 'A';
-		for (j=1;j<=i;j++) {
-			printf("%c ",ch);
-			ch++;
-		}
-		printf("\n");	
-	}	
-	return 0;	
+int main() {
+    int N;
+    scanf("%d", &N);
+
+    for (int i = 0; i < N; i++) {
+        for (int j = 0; j <= i; j++) {
+            printf("%c ", 'A' + j);
+        }
+        printf("\n");
+    }
+
+    return 0;
 }
-	
