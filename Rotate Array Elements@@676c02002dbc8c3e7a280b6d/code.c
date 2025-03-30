@@ -1,6 +1,6 @@
-// Your code here...
 #include <stdio.h>
 
+// Function to reverse a part of the array
 void reverse(int arr[], int start, int end) {
     while (start < end) {
         int temp = arr[start];
@@ -11,17 +11,18 @@ void reverse(int arr[], int start, int end) {
     }
 }
 
+// Function to rotate the array
 void rotateArray(int arr[], int n, int k) {
-    // Normalize k
+    // Step 1: Normalize K
     k = k % n;
 
-    // Step 1: Reverse the whole array
+    // Step 2: Reverse the entire array
     reverse(arr, 0, n - 1);
 
-    // Step 2: Reverse the first k elements
+    // Step 3: Reverse the first K elements
     reverse(arr, 0, k - 1);
 
-    // Step 3: Reverse the remaining elements
+    // Step 4: Reverse the remaining elements
     reverse(arr, k, n - 1);
 }
 
