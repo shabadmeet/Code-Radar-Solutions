@@ -3,8 +3,7 @@
 int rotate(int arr[],int n,int k)
 {
     int i;
-    for(i=0;i<n;i++)
-    {
+
         for(i=n-k;i<n;i++)
         {
             printf("%d",arr[i]);
@@ -13,8 +12,8 @@ int rotate(int arr[],int n,int k)
         {
             printf("%d",arr[i]);
         }
-    }
 }
+
 
 int main(){
     int i,n,k;
